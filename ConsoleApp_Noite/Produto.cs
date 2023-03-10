@@ -24,14 +24,31 @@ namespace ConsoleApp_Noite
             return Descricao;
         }
 
+        public void setDescricao(string descricao)
+        {
+            Descricao = descricao;
+        }
+
+       
+
         public string getId()
         {
             return Id;
         }
 
+        public void setId(string id)
+        {
+            Id = id;
+        }
+
         public string getValor()
         {
             return Valor;
+        }
+
+         public void setValor(decimal valor)
+        {
+            Valor = valor;
         }
 
     }
