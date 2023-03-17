@@ -29,19 +29,19 @@ namespace ConsoleApp_Noite
             Descricao = descricao;
         }
 
-       
+   
 
-        public string getId()
+        public int getId()
         {
             return Id;
         }
 
-        public void setId(string id)
+        public void setId(int id)
         {
             Id = id;
         }
 
-        public string getValor()
+        public decimal getValor()
         {
             return Valor;
         }
